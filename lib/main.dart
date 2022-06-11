@@ -57,7 +57,7 @@ class HomePage extends StatelessWidget {
         children: <Widget>[
           Image.asset('assets/codelab.png'),
           const SizedBox(height: 8),
-          const IconAndDetail(Icons.calendar_today, '7 Juni 2022'),
+          const IconAndDetail(Icons.calendar_today, '11 Juni 2022'),
           const IconAndDetail(Icons.location_city, 'Yogyakarta'),
           Consumer<ApplicationState>(
             builder: (context, appState, _) => Authentication(
